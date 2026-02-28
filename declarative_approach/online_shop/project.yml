@@ -9,7 +9,7 @@ spec:
   sourceRepo:
     - https://github.com/rahulp0817/argocd-demos.git
   destinations:
-    - namespace: frontend
+    - namespace: online-shop
       server: https://172.31.50.90:33893
   clusterResourceWhitelist:    # Which cluster-wide resources are allowed (e.g., CRDs)
     - group: "*"               # '*' means allow all groups
