@@ -6,7 +6,7 @@ metadata:
 
 spec:
   description: this is the frontend repo
-  sourceRepo:
+  sourceRepos:
     - https://github.com/rahulp0817/argocd-demos.git
   destinations:
     - namespace: frontend
